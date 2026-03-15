@@ -6,6 +6,7 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  disable_2_0_warning: true 
   features:
     - navigation.tabs
     - navigation.sections
@@ -41,12 +42,12 @@ plugins:
       fallback_to_build_date: true
   - awesome-pages
   - macros
-  - print-site
   - glightbox
   - table-reader
   - mkdocs-jupyter:
       execute: false
   - git-authors
+  - print-site
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -70,5 +71,11 @@ markdown_extensions:
   - footnotes
   - toc:
       permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/PSTG-Project-Team
+      name: PSTG Project Team
 
 copyright: Copyright &copy; 2025-2026 PSTG Project Team. All rights reserved.
