@@ -1,0 +1,11 @@
+﻿mkdocs-material
+mkdocs-minify-plugin
+mkdocs-git-revision-date-localized-plugin
+mkdocs-awesome-pages-plugin
+mkdocs-macros-plugin
+mkdocs-print-site-plugin
+mkdocs-glightbox
+mkdocs-table-reader-plugin
+mkdocs-jupyter
+pymdown-extensions
+mkdocs-video

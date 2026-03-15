@@ -1,0 +1,74 @@
+site_name: Plain Storage Tech Guide
+site_description: A textbook on Minecraft Storage Tech
+site_url: https://pstg-project-team.github.io/PlainStorageTechGuide/
+repo_url: https://github.com/PSTG-Project-Team/PlainStorageTechGuide
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: zh
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: 切换到暗色模式
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: 切换到亮色模式
+      primary: indigo
+      accent: indigo
+
+plugins:
+  - search
+  - mkdocs-video
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+      fallback_to_build_date: true
+  - awesome-pages
+  - macros
+  - print-site
+  - glightbox
+  - table-reader
+  - mkdocs-jupyter:
+      execute: false
+  - git-authors
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.magiclink
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+
+copyright: Copyright &copy; 2025-2026 PSTG Project Team. All rights reserved.
